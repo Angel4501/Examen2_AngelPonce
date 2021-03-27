@@ -139,7 +139,7 @@ public class Examen2_AngelPonce extends javax.swing.JFrame {
 
         jLabel6.setText("material");
 
-        jLabel7.setText("tiempo ensamblaje");
+        jLabel7.setText("tiempo ensamblaje (segundos)");
 
         jLabel8.setText("3) Interior");
 
@@ -147,7 +147,7 @@ public class Examen2_AngelPonce extends javax.swing.JFrame {
 
         jLabel10.setText("Capacidad maletero");
 
-        jLabel11.setText("tiempo ensamblaje");
+        jLabel11.setText("tiempo ensamblaje (segundos)");
 
         jLabel12.setText("2) Carroceria");
 
@@ -157,7 +157,7 @@ public class Examen2_AngelPonce extends javax.swing.JFrame {
 
         jLabel15.setText("cantidad de botones");
 
-        jLabel16.setText("tiempo ensamblaje");
+        jLabel16.setText("tiempo ensamblaje (segundos)");
 
         jLabel17.setText("4) SIstema de Infoentretenimiento");
 
@@ -167,7 +167,7 @@ public class Examen2_AngelPonce extends javax.swing.JFrame {
 
         jLabel20.setText("ancho de pantalla principal");
 
-        jLabel21.setText("tiempo ensamblaje");
+        jLabel21.setText("tiempo ensamblaje (segundos)");
 
         jLabel22.setText("5) Asientos");
 
@@ -177,7 +177,7 @@ public class Examen2_AngelPonce extends javax.swing.JFrame {
 
         jLabel25.setText("Masaje (si o no)");
 
-        jLabel26.setText("tiempo ensamblaje");
+        jLabel26.setText("tiempo ensamblaje (segundos)");
 
         jButton3.setText("GUARDAD AUTO");
         jButton3.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -207,12 +207,12 @@ public class Examen2_AngelPonce extends javax.swing.JFrame {
                                     .addGroup(crearautosLayout.createSequentialGroup()
                                         .addGroup(crearautosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                                             .addGroup(crearautosLayout.createSequentialGroup()
-                                                .addGroup(crearautosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                                .addGroup(crearautosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                                                     .addGroup(crearautosLayout.createSequentialGroup()
                                                         .addComponent(jLabel11)
-                                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                                         .addComponent(tec, javax.swing.GroupLayout.PREFERRED_SIZE, 109, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                                    .addGroup(crearautosLayout.createSequentialGroup()
+                                                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, crearautosLayout.createSequentialGroup()
                                                         .addComponent(jLabel10)
                                                         .addGap(18, 18, 18)
                                                         .addComponent(capacidadmaletero, javax.swing.GroupLayout.PREFERRED_SIZE, 111, javax.swing.GroupLayout.PREFERRED_SIZE)))
@@ -250,7 +250,7 @@ public class Examen2_AngelPonce extends javax.swing.JFrame {
                                 .addGroup(crearautosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(cantidadbotones, javax.swing.GroupLayout.PREFERRED_SIZE, 109, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addComponent(tei, javax.swing.GroupLayout.PREFERRED_SIZE, 109, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 180, Short.MAX_VALUE)
                                 .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 153, javax.swing.GroupLayout.PREFERRED_SIZE))))
                     .addGroup(crearautosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                         .addGroup(javax.swing.GroupLayout.Alignment.LEADING, crearautosLayout.createSequentialGroup()
@@ -258,7 +258,7 @@ public class Examen2_AngelPonce extends javax.swing.JFrame {
                             .addGroup(crearautosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                 .addGroup(crearautosLayout.createSequentialGroup()
                                     .addComponent(jLabel7)
-                                    .addGap(18, 18, 18)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                     .addComponent(teb, javax.swing.GroupLayout.PREFERRED_SIZE, 109, javax.swing.GroupLayout.PREFERRED_SIZE))
                                 .addGroup(crearautosLayout.createSequentialGroup()
                                     .addComponent(jLabel6)
@@ -268,16 +268,12 @@ public class Examen2_AngelPonce extends javax.swing.JFrame {
                                     .addComponent(jLabel5)
                                     .addGap(18, 18, 18)
                                     .addComponent(autonomia, javax.swing.GroupLayout.PREFERRED_SIZE, 109, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 18, Short.MAX_VALUE)
                             .addGroup(crearautosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                 .addGroup(crearautosLayout.createSequentialGroup()
                                     .addComponent(jLabel19)
                                     .addGap(26, 26, 26)
                                     .addComponent(cantidadpantallas, javax.swing.GroupLayout.PREFERRED_SIZE, 111, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addGroup(crearautosLayout.createSequentialGroup()
-                                    .addComponent(jLabel21)
-                                    .addGap(34, 34, 34)
-                                    .addComponent(tes, javax.swing.GroupLayout.PREFERRED_SIZE, 111, javax.swing.GroupLayout.PREFERRED_SIZE))
                                 .addGroup(crearautosLayout.createSequentialGroup()
                                     .addComponent(jLabel18)
                                     .addGap(28, 28, 28)
@@ -285,7 +281,12 @@ public class Examen2_AngelPonce extends javax.swing.JFrame {
                                 .addGroup(crearautosLayout.createSequentialGroup()
                                     .addComponent(jLabel20)
                                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                    .addComponent(anchopantalla, javax.swing.GroupLayout.PREFERRED_SIZE, 111, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                    .addComponent(anchopantalla, javax.swing.GroupLayout.PREFERRED_SIZE, 111, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGroup(crearautosLayout.createSequentialGroup()
+                                    .addComponent(jLabel21)
+                                    .addGap(18, 18, 18)
+                                    .addComponent(tes, javax.swing.GroupLayout.PREFERRED_SIZE, 111, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addGap(16, 16, 16))
                         .addGroup(javax.swing.GroupLayout.Alignment.LEADING, crearautosLayout.createSequentialGroup()
                             .addGap(18, 18, 18)
                             .addGroup(crearautosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -301,17 +302,17 @@ public class Examen2_AngelPonce extends javax.swing.JFrame {
                                     .addComponent(jLabel4)
                                     .addGap(343, 343, 343)
                                     .addComponent(jLabel17))))))
-                .addContainerGap(49, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(crearautosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(crearautosLayout.createSequentialGroup()
                     .addGap(70, 70, 70)
                     .addComponent(color, javax.swing.GroupLayout.PREFERRED_SIZE, 109, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addContainerGap(483, Short.MAX_VALUE)))
+                    .addContainerGap(517, Short.MAX_VALUE)))
             .addGroup(crearautosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(crearautosLayout.createSequentialGroup()
                     .addGap(28, 28, 28)
                     .addComponent(jLabel12)
-                    .addContainerGap(559, Short.MAX_VALUE)))
+                    .addContainerGap(593, Short.MAX_VALUE)))
         );
         crearautosLayout.setVerticalGroup(
             crearautosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -349,10 +350,10 @@ public class Examen2_AngelPonce extends javax.swing.JFrame {
                         .addComponent(teb, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addComponent(anchopantalla, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(crearautosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(crearautosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel21)
                     .addComponent(tes, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(29, 29, 29)
+                .addGap(33, 33, 33)
                 .addGroup(crearautosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel9)
                     .addComponent(tipo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -361,6 +362,7 @@ public class Examen2_AngelPonce extends javax.swing.JFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addGroup(crearautosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(crearautosLayout.createSequentialGroup()
+                                .addGap(4, 4, 4)
                                 .addGroup(crearautosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                                     .addComponent(jLabel10)
                                     .addComponent(capacidadmaletero, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -406,7 +408,7 @@ public class Examen2_AngelPonce extends javax.swing.JFrame {
                         .addGroup(crearautosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jLabel16)
                             .addComponent(tei, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addContainerGap(16, Short.MAX_VALUE))
+                        .addContainerGap(8, Short.MAX_VALUE))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, crearautosLayout.createSequentialGroup()
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 62, javax.swing.GroupLayout.PREFERRED_SIZE)
